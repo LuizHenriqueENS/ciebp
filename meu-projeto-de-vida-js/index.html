@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Trilhando meu projeto de vida</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Meu Projeto de Vida<br>CIEBP</h1>
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg"
-            alt="Imagem de Pokemon" srcset="">
-        <h2>VOLTORB</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>FAÇO</th>
-                    <th class="year-expectations">EM 5 ANOS</th>
-                    <th>FAREI</th>
-                    <th class="year-expectations">EM 20 ANOS</th>
-                    <th>ESTAREI</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td >Aluno estudando</td>
-                    <td class="arrow">→</td>
-                    <td>Fazendo curso</td>
-                    <td class="arrow">→</td>
-                    <td>Formado na faculdade</td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trilhando meu projeto de vida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Meu Projeto de Vida<br />CIEBP</h1>
+    <img
+      id="poke-image"
+      onclick="changePokeImage()"
+      src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg"
+      alt="Imagem de Pokemon"
+      srcset=""
+    />
+    <div class="container-input">
+      <input class="input-box" value="VOLTORB" />
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>FAÇO</th>
+          <th class="year-expectations">EM 5 ANOS</th>
+          <th>FAREI</th>
+          <th class="year-expectations">EM 20 ANOS</th>
+          <th>ESTAREI</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Aluno estudando</td>
+          <td class="arrow">→</td>
+          <td>Fazendo curso</td>
+          <td class="arrow">→</td>
+          <td>Formado na faculdade</td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -1,44 +1,77 @@
-html{
-    display: flex;
-    height: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+html {
+  display: flex;
+  height: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
 }
 
-h1, h2{
-    text-align: center;
+.container-input{
+    margin: 25px;
+    justify-self: center;
 }
 
-.year-expectations{
-    font-style: italic;
-}
-.arrow{
+.input-box{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid red;
     font-size: 30px;
-    padding-bottom: 10px;
+    font-weight: bold;
     text-align: center;
-    font-weight: bolder;
 }
-img{
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.year-expectations {
+  font-style: italic;
+}
+.arrow {
+  font-size: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+img {
+  padding: 20px;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  box-shadow: 6px 7px 20px 7px;
+}
+
+img:hover{
+    height: 240px;
+    width: 240px;
+    transition: 0.2s;
+}
+
+img:not(:hover){
     height: 200px;
     width: 200px;
-    padding: 20px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-    box-shadow: 6px 7px 20px 7px;
+    transition: 0.2s;
 }
 
-th{
-    text-align: center;
-    color: white;
+th {
+  text-align: center;
+  color: white;
 }
 
-table, tr, th, td{
-    border-collapse: collapse;
-    padding: 5px;
-    justify-self: center;
-    border: 1px solid black
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  padding: 5px;
+  justify-self: center;
+  border: 1px solid black;
 }
